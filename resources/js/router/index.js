@@ -7,19 +7,20 @@ import Dashboard from '../pages/Dashboard';
 
 export const routes = [
     {
+        name: 'login',
+        path: '/login',
+        component: Login
+    },
+    {
         name: 'home',
         path: '/',
-        component: Home
+        component: Home,
+        redirect: '/login'
     },
     {
         name: 'register',
         path: '/register',
         component: Register
-    },
-    {
-        name: 'login',
-        path: '/login',
-        component: Login
     },
     {
         name: 'dashboard',
