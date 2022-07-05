@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        Welcome, this page will show to all user
+        Welcome, this page will show to all user 
     </div>
 </template>
 
